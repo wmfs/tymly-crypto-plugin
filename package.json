@@ -17,8 +17,7 @@
     "url": "https://github.com/wmfs/tymly-crypto-plugin/issues"
   },
   "main": "lib/index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@semantic-release/changelog": "3.0.1",
     "@semantic-release/git": "7.0.5",
