@@ -1,0 +1,11 @@
+{
+  "namespace": "tymly",
+  "name": "crypto-blueprint",
+  "version": "1.0",
+  "label": "crypto-blueprint",
+  "author": "WMFS",
+
+  "organisation": "West Midlands Fire Service",
+  "description": "Tymly blueprint to hold crypto-locker entries.",
+  "categories": []
+}
