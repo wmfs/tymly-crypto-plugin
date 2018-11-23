@@ -1,0 +1,20 @@
+{
+  "Comment": "State machine to delete from the cryptoLocker.",
+  "StartAt": "DeleteExpired",
+  "States": {
+    "DeleteExpired": {
+      "Type": "Task",
+      "Resource": "module:deleteExpiredCryptoEntry",
+      "InputPath": "$.crypto",
+      "End": true
+    }
+  },
+  "restrictions": [
+    {
+      "roleId": "$authenticated",
+      "allows": [
+        "*"
+      ]
+    }
+  ]
+}

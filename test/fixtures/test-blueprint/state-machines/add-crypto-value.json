@@ -1,0 +1,20 @@
+{
+  "Comment": "State machine to add to the cryptoLocker.",
+  "StartAt": "AddValue",
+  "States": {
+    "AddValue": {
+      "Type": "Task",
+      "Resource": "module:addCryptoEntry",
+      "InputPath": "$.crypto",
+      "End": true
+    }
+  },
+  "restrictions": [
+    {
+      "roleId": "$authenticated",
+      "allows": [
+        "*"
+      ]
+    }
+  ]
+}
