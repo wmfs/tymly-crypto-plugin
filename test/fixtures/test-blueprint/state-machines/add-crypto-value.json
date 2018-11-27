@@ -1,11 +1,35 @@
 {
   "Comment": "State machine to add to the cryptoLocker.",
-  "StartAt": "AddValue",
+  "StartAt": "AwaitingHumanInput",
   "States": {
+    "AwaitingHumanInput": {
+      "Type": "Task",
+      "Resource": "module:awaitingHumanInput",
+      "ResourceConfig": {
+        "uiType": "form",
+        "uiName": "wmfs_testForm"
+      },
+      "ResultPath": "$.formData",
+      "Next": "AddValue"
+    },
     "AddValue": {
       "Type": "Task",
       "Resource": "module:addCryptoEntry",
-      "InputPath": "$.crypto",
+      "ResourceConfig": {
+        "values": [
+          "$.formData.encryptThisOne"
+        ],
+        "expiryOffset": "3d"
+      },
+      "Next": "Upserting"
+    },
+    "Upserting": {
+      "Type": "Task",
+      "InputPath": "$.encryptedFormData",
+      "Resource": "module:upserting",
+      "ResourceConfig": {
+        "modelId": "cryptoTest"
+      },
       "End": true
     }
   },

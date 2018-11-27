@@ -1,0 +1,13 @@
+{
+  "title": "crypto test",
+  "description": "Holds crypto thingies",
+  "type": "object",
+  "properties": {
+    "dontEncryptThis": {
+      "type": "string"
+    },
+    "encryptThisOne": {
+      "type": "string"
+    }
+  }
+}

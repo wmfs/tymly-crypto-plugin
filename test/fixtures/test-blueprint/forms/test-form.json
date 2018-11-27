@@ -1,0 +1,44 @@
+{
+  "jsonSchema": {
+    "schema": {
+      "formtitle": "Test Form for crypto-plugin",
+      "formdescription": "Use this form to test the crypto-plugin",
+      "formcolorscheme": "lightblue",
+      "type": "object",
+      "properties": {
+        "section": {
+          "type": "object",
+          "title": "Section",
+          "required": [],
+          "properties": {
+            "dontEncryptThis": {
+              "type": "string",
+              "title": "Dont encrypt this value"
+            },
+            "encryptThisOne": {
+              "type": "string",
+              "title": "Please encrypt this value"
+            }
+          }
+        }
+      }
+    },
+    "validationSchema": {},
+    "conditionalSchema": {},
+    "uiSchema": {
+      "section": {
+        "ui:section": true,
+        "dontEncryptThis": {
+          "ui:section:field": "This shouldn't be encrypted",
+          "ui:widget": "textField",
+          "ui:field": "StandardField"
+        },
+        "encryptThisOne": {
+          "ui:section:field": "This one should be encrypted",
+          "ui:widget": "textField",
+          "ui:field": "StandardField"
+        }
+      }
+    }
+  }
+}

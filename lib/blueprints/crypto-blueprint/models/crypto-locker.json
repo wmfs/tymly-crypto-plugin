@@ -8,9 +8,8 @@
       "type": "string",
       "description": "An encrypted value derived by the crypto-plugin"
     },
-    "expiryDate": {
-      "type": "string",
-      "format": "date-time"
+    "expiry": {
+      "type": "string"
     }
   },
   "audit": false
