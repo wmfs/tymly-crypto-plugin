@@ -102,7 +102,7 @@ describe('Test general crypto actions', function () {
     expect(res[0].dontEncryptThis).to.eql('test string')
   })
 
-  xit('should run the delete crypto value state machine', async () => {
+  it('should run the delete crypto value state machine', async () => {
     const execDesc = await statebox.startExecution(
       {},
       DELETE_VALUE_STATE_MACHINE,
