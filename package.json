@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wmfs/tymly-crypto-plugin.git"
+    "url": "https://github.com/wmfs/tymly-crypto-plugin.git"
   },
   "bugs": {
     "url": "https://github.com/wmfs/tymly-crypto-plugin/issues"
@@ -53,17 +53,5 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "release": {
-    "analyzeCommits": {
-      "preset": "angular",
-      "releaseRules": [
-        {
-          "type": "build",
-          "scope": "deps",
-          "release": "minor"
-        }
-      ]
-    }
   }
 }
