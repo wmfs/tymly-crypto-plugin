@@ -16,7 +16,7 @@ const FORM_DATA = {
 describe('Test general crypto actions', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
-  let tymlyService, statebox, cryptoModel, testFormModel, execName, id
+  let statebox, cryptoModel, testFormModel, execName, id
 
   before(function () {
     if (process.env.PG_CONNECTION_STRING && !/^postgres:\/\/[^:]+:[^@]+@(?:localhost|127\.0\.0\.1).*$/.test(process.env.PG_CONNECTION_STRING)) {
@@ -41,7 +41,6 @@ describe('Test general crypto actions', function () {
       },
       (err, tymlyServices) => {
         expect(err).to.eql(null)
-        tymlyService = tymlyServices.tymly
         statebox = tymlyServices.statebox
         cryptoModel = tymlyServices.storage.models['tymly_cryptoLocker']
         testFormModel = tymlyServices.storage.models['test_cryptoTest']
