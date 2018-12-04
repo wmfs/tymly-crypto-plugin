@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.0.1...v1.1.0) (2018-12-04)
+
+
+### ✨ Features
+
+* **get-crypto-value:** initial implementation and tests for get-crypto-value state resource ([103e0d6](https://github.com/wmfs/tymly-crypto-plugin/commit/103e0d6))
+
+
+### 🐛 Bug Fixes
+
+* **get-crypto-value:** standard strikes again ([0c90378](https://github.com/wmfs/tymly-crypto-plugin/commit/0c90378))
+
 ## [1.0.1](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.0.0...v1.0.1) (2018-12-04)
 
 
