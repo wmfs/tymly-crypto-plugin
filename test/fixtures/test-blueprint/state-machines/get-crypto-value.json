@@ -1,0 +1,39 @@
+{
+  "Comment": "State machine to get from the cryptoLocker.",
+  "StartAt": "GetData",
+  "States": {
+    "GetData": {
+      "Type": "Task",
+      "Resource": "module:finding",
+      "ResourceConfig": {
+        "modelId": "test_cryptoTest",
+        "filter": {
+          "where": {
+            "encryptThisOne": "1234"
+          }
+        }
+      },
+      "ResultPath": "decryptionTarget",
+      "Next": "DecryptValue"
+    },
+    "DecryptValue": {
+      "Type": "Task",
+      "Resource": "module:getCryptoEntry",
+      "ResourceConfig": {
+        "source": "test_cryptoTest",
+        "values": [
+          "$.encryptThisOne"
+        ]
+      },
+      "End": true
+    }
+  },
+  "restrictions": [
+    {
+      "roleId": "$authenticated",
+      "allows": [
+        "*"
+      ]
+    }
+  ]
+}

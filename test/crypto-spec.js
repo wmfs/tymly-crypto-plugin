@@ -5,8 +5,7 @@ const path = require('path')
 const expect = require('chai').expect
 
 const ADD_VALUE_STATE_MACHINE = 'test_addCryptoValue'
-const DELETE_VALUE_STATE_MACHINE = 'test_deleteCryptoValue'
-const DELETE_EXPIRED_STATE_MACHINE = 'test_deleteExpiredValue'
+const GET_VALUE_STATE_MACHINE = 'test_getCryptoValue'
 
 const FORM_DATA = {
   dontEncryptThis: 'test string',
@@ -101,29 +100,26 @@ describe('Test general crypto actions', function () {
     expect(res[0].dontEncryptThis).to.eql('test string')
   })
 
-  it('should run the delete crypto value state machine', async () => {
+  it('should run the get crypto value state machine', async () => {
     const execDesc = await statebox.startExecution(
       {},
-      DELETE_VALUE_STATE_MACHINE,
+      GET_VALUE_STATE_MACHINE,
       {
         sendResponse: 'COMPLETE'
       }
     )
 
+    execName = execDesc.executionName
     expect(execDesc.status).to.eql('SUCCEEDED')
-    expect(execDesc.currentStateName).to.eql('DeleteValue')
+    expect(execDesc.currentStateName).to.eql('DecryptValue')
   })
 
-  xit('should run the delete expired crypto value state machine', async () => {
-    const execDesc = await statebox.startExecution(
-      {},
-      DELETE_EXPIRED_STATE_MACHINE,
-      {
-        sendResponse: 'COMPLETE'
-      }
+  it('should wait for GET_VALUE_STATE_MACHINE to finish', async () => {
+    const execDesc = await statebox.waitUntilStoppedRunning(
+      execName
     )
 
+    expect(execDesc.ctx[0].encryptThisOne).to.eql('test string')
     expect(execDesc.status).to.eql('SUCCEEDED')
-    expect(execDesc.currentStateName).to.eql('DeleteExpired')
   })
 })
