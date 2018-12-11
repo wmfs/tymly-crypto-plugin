@@ -1,0 +1,13 @@
+{
+  "AddCryptoEntry": {
+    "Type": "Task",
+    "Resource": "module:addCryptoEntry",
+    "ResourceConfig": {
+      "values": [
+        "$.JSONPath.to.value.to.encrypt"
+      ],
+      "expiryOffset": "ExpiryTime"
+    },
+    "End": true
+  }
+}
