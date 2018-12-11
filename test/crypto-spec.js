@@ -71,7 +71,7 @@ describe('Test general crypto actions', function () {
       {}
     )
 
-    expect(execDesc.status).to.eql('SUCCEEDED')
+    expect(execDesc.status).to.eql('RUNNING')
     expect(execDesc.currentStateName).to.eql('Upserting')
   })
 
