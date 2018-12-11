@@ -72,7 +72,7 @@ describe('Test general crypto actions', function () {
     )
 
     expect(execDesc.status).to.eql('RUNNING')
-    expect(execDesc.currentStateName).to.eql('Upserting')
+    expect(execDesc.currentStateName).to.eql('AddValue')
   })
 
   it('should wait for ADD_VALUE_STATE_MACHINE to finish', async () => {
