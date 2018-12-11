@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.1.1...v1.1.2) (2018-12-11)
+
+
+### 🐛 Bug Fixes
+
+* **get-crypto-value:** align with s&w process ([1c0b1e7](https://github.com/wmfs/tymly-crypto-plugin/commit/1c0b1e7))
+
 ## [1.1.1](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.1.0...v1.1.1) (2018-12-11)
 
 
