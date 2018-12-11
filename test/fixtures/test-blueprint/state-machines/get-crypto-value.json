@@ -21,6 +21,9 @@
       "Resource": "module:getCryptoEntry",
       "ResourceConfig": {
         "source": "test_cryptoTest",
+        "pathToDecryptionTargets": [
+          "$.decryptionTarget"
+        ],
         "values": [
           "$.encryptThisOne"
         ]
