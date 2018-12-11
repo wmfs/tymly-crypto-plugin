@@ -48,7 +48,10 @@ Whose ```resourceConfig``` requires:
 Whose ```resourceConfig``` requires:
 * A ```source``` string which is a path to the [in-memory](https://github.com/wmfs/tymly-core/blob/master/lib/plugin/components/services/storage/Memory-model.js) OR postgres table the data to be decrypted is held in, in the form "NAMESPACE_TABLENAME"
 
+* A ```pathToDecryptionTargets``` array which is a list of JSONPaths
+
 * A ```values``` array which is a list of JSON paths 
+
 ```
 "GetCryptoEntry": {
       "Type": "Task",
