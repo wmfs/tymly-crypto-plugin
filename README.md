@@ -55,11 +55,11 @@ Whose ```resourceConfig``` requires:
       "Resource": "module:getCryptoEntry",
       "ResourceConfig": {
         "source": "NAMESPACE_TABLENAME",
-         "pathToDecryptionTargets": [
+        "pathToDecryptionTargets": [
           "$.JSONPath.to.decryption.targets",
           "$.JSONPath.to.decryption.targets",
           ...
-         ],
+        ],
         "values": [
           "$.JSONPath.to.value.to.decrypt",
           ...
