@@ -1,3 +1,20 @@
+## [1.1.3](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.1.2...v1.1.3) (2018-12-11)
+
+
+### 🐛 Bug Fixes
+
+* readme update & build ([b5fc065](https://github.com/wmfs/tymly-crypto-plugin/commit/b5fc065))
+
+
+### ♻️ Chores
+
+* **README:** readme update for new implementation ([8a385ea](https://github.com/wmfs/tymly-crypto-plugin/commit/8a385ea))
+* **README:** spacing ([83b169f](https://github.com/wmfs/tymly-crypto-plugin/commit/83b169f))
+* add example.json to doc folders for add and get resources ([cdbc91e](https://github.com/wmfs/tymly-crypto-plugin/commit/cdbc91e))
+* remove test delete state machine ([cee5d0a](https://github.com/wmfs/tymly-crypto-plugin/commit/cee5d0a))
+* remove unused state resource ([d87c412](https://github.com/wmfs/tymly-crypto-plugin/commit/d87c412))
+* remove unused try/catch ([e36a12b](https://github.com/wmfs/tymly-crypto-plugin/commit/e36a12b))
+
 ## [1.1.2](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.1.1...v1.1.2) (2018-12-11)
 
 
