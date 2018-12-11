@@ -13,7 +13,7 @@
           }
         }
       },
-      "ResultPath": "decryptionTarget",
+      "ResultPath": "$.data.decryptionTarget",
       "Next": "DecryptValue"
     },
     "DecryptValue": {
@@ -22,7 +22,7 @@
       "ResourceConfig": {
         "source": "test_cryptoTest",
         "pathToDecryptionTargets": [
-          "$.decryptionTarget"
+          "$.data.decryptionTarget"
         ],
         "values": [
           "$.encryptThisOne"
