@@ -1,3 +1,17 @@
+## [1.1.1](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.1.0...v1.1.1) (2018-12-11)
+
+
+### 🐛 Bug Fixes
+
+* **get-crypto-value:** change test expect ([28502f8](https://github.com/wmfs/tymly-crypto-plugin/commit/28502f8))
+* **get-crypto-value:** change test expect [#2](https://github.com/wmfs/tymly-crypto-plugin/issues/2) ([85033d2](https://github.com/wmfs/tymly-crypto-plugin/commit/85033d2))
+* **get-crypto-value:** refactor to accomodate s&w implementation ([227e612](https://github.com/wmfs/tymly-crypto-plugin/commit/227e612))
+
+
+### ♻️ Chores
+
+* **README:** big README update ([b3cddb0](https://github.com/wmfs/tymly-crypto-plugin/commit/b3cddb0))
+
 # [1.1.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.0.1...v1.1.0) (2018-12-04)
 
 
