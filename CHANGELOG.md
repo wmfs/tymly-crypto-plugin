@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.1.3...v1.2.0) (2018-12-18)
+
+
+### ✨ Features
+
+* now deals with empty strings and does not upsert empty encoded values to cryptoLocker model ([10f3825](https://github.com/wmfs/tymly-crypto-plugin/commit/10f3825))
+
 ## [1.1.3](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.1.2...v1.1.3) (2018-12-11)
 
 
