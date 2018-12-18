@@ -12,6 +12,11 @@ const FORM_DATA = {
   encryptThisOne: 'test string'
 }
 
+const FORM_DATA_2 = {
+  dontEncryptThis: 'test string',
+  encryptThisOne: ''
+}
+
 describe('Test general crypto actions', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
@@ -71,6 +76,7 @@ describe('Test general crypto actions', function () {
       {}
     )
 
+    // console.log('execdesc: ', JSON.stringify(execDesc, null, 2))
     expect(execDesc.status).to.eql('RUNNING')
     expect(execDesc.currentStateName).to.eql('AddValue')
   })
@@ -119,8 +125,51 @@ describe('Test general crypto actions', function () {
       execName
     )
 
-    console.log('***', JSON.stringify(execDesc, null, 2))
+    // console.log('***', JSON.stringify(execDesc, null, 2))
     expect(execDesc.ctx.data.decryptionTarget[0].encryptThisOne).to.eql('test string')
     expect(execDesc.status).to.eql('SUCCEEDED')
+  })
+
+  it('should attempt encryption of an empty string', async () => {
+    const execDesc = await statebox.startExecution(
+      {},
+      ADD_VALUE_STATE_MACHINE,
+      {
+        sendResponse: 'AFTER_RESOURCE_CALLBACK.TYPE:awaitingHumanInput'
+      }
+    )
+
+    // console.log('>>>', execDesc)
+
+    execName = execDesc.executionName
+    expect(execDesc.status).to.eql('RUNNING')
+    expect(execDesc.currentStateName).to.eql('AwaitingHumanInput')
+  })
+
+  it('should complete the test form with empty crypto value', async () => {
+    const execDesc = await statebox.sendTaskSuccess(
+      execName,
+      FORM_DATA_2,
+      {}
+    )
+
+    expect(execDesc.status).to.eql('RUNNING')
+    expect(execDesc.currentStateName).to.eql('AddValue')
+  })
+
+  it('should wait for ADD_VALUE_STATE_MACHINE to finish', async () => {
+    const execDesc = await statebox.waitUntilStoppedRunning(
+      execName
+    )
+
+    expect(execDesc.currentStateName).to.eql('Upserting')
+    expect(execDesc.status).to.eql('SUCCEEDED')
+    id = execDesc.ctx.encryptedFormData.encryptThisOne
+  })
+
+  it('should not find any value in the crypto model', async () => {
+    const res = await cryptoModel.findById(id)
+
+    expect(res).to.eql(undefined)
   })
 })
