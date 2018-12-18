@@ -70,19 +70,13 @@ describe('Test general crypto actions', function () {
     expect(execDesc.currentStateName).to.eql('AwaitingHumanInput')
   })
 
-  it('should complete the test form', async () => {
-    const execDesc = await statebox.sendTaskSuccess(
+  it('should complete the test form and wait for ADD_VALUE_STATE_MACHINE to finish', async () => {
+    await statebox.sendTaskSuccess(
       execName,
       FORM_DATA,
       {}
     )
 
-    // console.log('execdesc: ', JSON.stringify(execDesc, null, 2))
-    expect(execDesc.status).to.eql('RUNNING')
-    expect(execDesc.currentStateName).to.eql('AddValue')
-  })
-
-  it('should wait for ADD_VALUE_STATE_MACHINE to finish', async () => {
     const execDesc = await statebox.waitUntilStoppedRunning(
       execName
     )
@@ -147,18 +141,13 @@ describe('Test general crypto actions', function () {
     expect(execDesc.currentStateName).to.eql('AwaitingHumanInput')
   })
 
-  it('should complete the test form with empty crypto value', async () => {
-    const execDesc = await statebox.sendTaskSuccess(
+  it('should complete the test form with empty crypto value and wait for ADD_VALUE_STATE_MACHINE to finish', async () => {
+    await statebox.sendTaskSuccess(
       execName,
       FORM_DATA_2,
       {}
     )
 
-    expect(execDesc.status).to.eql('RUNNING')
-    expect(execDesc.currentStateName).to.eql('AddValue')
-  })
-
-  it('should wait for ADD_VALUE_STATE_MACHINE to finish', async () => {
     const execDesc = await statebox.waitUntilStoppedRunning(
       execName
     )
