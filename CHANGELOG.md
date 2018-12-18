@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.2.0...v1.3.0) (2018-12-18)
+
+
+### ✨ Features
+
+* implementation, error handling and supporting tests for getting a value that is not a JWT ([a358f9f](https://github.com/wmfs/tymly-crypto-plugin/commit/a358f9f))
+
+
+### 🐛 Bug Fixes
+
+* Standard :( ([2637df7](https://github.com/wmfs/tymly-crypto-plugin/commit/2637df7))
+
 # [1.2.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.1.3...v1.2.0) (2018-12-18)
 
 
