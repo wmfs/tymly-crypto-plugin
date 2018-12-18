@@ -6,6 +6,7 @@ const expect = require('chai').expect
 
 const ADD_VALUE_STATE_MACHINE = 'test_addCryptoValue'
 const GET_VALUE_STATE_MACHINE = 'test_getCryptoValue'
+const GET_EMPTY_STATE_MACHINE = 'test_getEmptyValue'
 
 const FORM_DATA = {
   dontEncryptThis: 'test string',
@@ -164,12 +165,30 @@ describe('Test general crypto actions', function () {
 
     expect(execDesc.currentStateName).to.eql('Upserting')
     expect(execDesc.status).to.eql('SUCCEEDED')
-    id = execDesc.ctx.encryptedFormData.encryptThisOne
   })
 
-  it('should not find any value in the crypto model', async () => {
-    const res = await cryptoModel.findById(id)
+  it('should not find any additional value in the crypto model', async () => {
+    const res = await cryptoModel.find({})
 
-    expect(res).to.eql(undefined)
+    expect(res.length).to.eql(1)
+  })
+
+  it('should run the get empty value state machine', async () => {
+    const execDesc = await statebox.startExecution(
+      {},
+      GET_EMPTY_STATE_MACHINE,
+      {
+        sendResponse: 'COMPLETE'
+      }
+    )
+
+    let found = false
+    execName = execDesc.executionName
+    expect(execDesc.status).to.eql('SUCCEEDED')
+    expect(execDesc.currentStateName).to.eql('DecryptValue')
+    for (const record of execDesc.ctx.data.decryptionTarget) {
+      if (record.encryptThisOne === '') found = true
+    }
+    expect(found).to.eql(true)
   })
 })
