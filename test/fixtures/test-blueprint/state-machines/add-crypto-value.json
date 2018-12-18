@@ -21,18 +21,7 @@
         ],
         "expiryOffset": "3d"
       },
-      "Next": "CheckIfUpserting"
-    },
-    "CheckIfUpserting": {
-      "Type": "Choice",
-      "Choices": [
-        {
-          "Variable": "$.formData.encryptThisOne",
-          "StringEquals": "",
-          "End": true
-        }
-      ],
-      "Default": "Upserting"
+      "Next": "Upserting"
     },
     "Upserting": {
       "Type": "Task",
