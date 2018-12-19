@@ -1,3 +1,16 @@
+## [1.3.1](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.3.0...v1.3.1) (2018-12-19)
+
+
+### 🐛 Bug Fixes
+
+* return task success on error in get-crypto-entry to suppress looping errors ([bdf871d](https://github.com/wmfs/tymly-crypto-plugin/commit/bdf871d))
+
+
+### 🚨 Tests
+
+* Combine a couple of tests - expecting machine state to be running isn't reliable ([f94104a](https://github.com/wmfs/tymly-crypto-plugin/commit/f94104a))
+* remove unnecessary state ([e6e4d98](https://github.com/wmfs/tymly-crypto-plugin/commit/e6e4d98))
+
 # [1.3.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.2.0...v1.3.0) (2018-12-18)
 
 
