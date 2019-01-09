@@ -1,3 +1,20 @@
+## [1.3.2](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.3.1...v1.3.2) (2019-01-09)
+
+
+### 🐛 Bug Fixes
+
+* default encryption string to empty if the env var can't be found ([d6ea2a4](https://github.com/wmfs/tymly-crypto-plugin/commit/d6ea2a4))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([#4](https://github.com/wmfs/tymly-crypto-plugin/issues/4)) ([edd774e](https://github.com/wmfs/tymly-crypto-plugin/commit/edd774e))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly requirement from 1.66.0 to 1.75.0 ([#3](https://github.com/wmfs/tymly-crypto-plugin/issues/3)) ([98b4167](https://github.com/wmfs/tymly-crypto-plugin/commit/98b4167))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin requirement ([#7](https://github.com/wmfs/tymly-crypto-plugin/issues/7)) ([1294c92](https://github.com/wmfs/tymly-crypto-plugin/commit/1294c92))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly-solr-plugin requirement ([#5](https://github.com/wmfs/tymly-crypto-plugin/issues/5)) ([45d1264](https://github.com/wmfs/tymly-crypto-plugin/commit/45d1264))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly-test-helpers requirement ([#6](https://github.com/wmfs/tymly-crypto-plugin/issues/6)) ([2569b67](https://github.com/wmfs/tymly-crypto-plugin/commit/2569b67))
+* **deps-dev:** update semantic-release requirement ([#8](https://github.com/wmfs/tymly-crypto-plugin/issues/8)) ([24f5feb](https://github.com/wmfs/tymly-crypto-plugin/commit/24f5feb))
+
 ## [1.3.1](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.3.0...v1.3.1) (2018-12-19)
 
 
