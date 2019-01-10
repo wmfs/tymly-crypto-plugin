@@ -1,3 +1,13 @@
+## [1.3.3](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.3.2...v1.3.3) (2019-01-10)
+
+
+### 🐛 Bug Fixes
+
+* add log so we can debug dev ([6f6c942](https://github.com/wmfs/tymly-crypto-plugin/commit/6f6c942))
+* algorithm not algorithms ([45d60ea](https://github.com/wmfs/tymly-crypto-plugin/commit/45d60ea))
+* algorithm not algorithms pt.2 ([21076da](https://github.com/wmfs/tymly-crypto-plugin/commit/21076da))
+* explicitly state encryption and decryption algorithm to prevent mismatch? ([21f79cb](https://github.com/wmfs/tymly-crypto-plugin/commit/21f79cb))
+
 ## [1.3.2](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.3.1...v1.3.2) (2019-01-09)
 
 
