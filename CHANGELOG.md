@@ -1,3 +1,29 @@
+# [1.4.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.3.3...v1.4.0) (2019-04-04)
+
+
+### ✨ Features
+
+* extend tests for null and undefined support ([4829ec3](https://github.com/wmfs/tymly-crypto-plugin/commit/4829ec3))
+
+
+### 🐛 Bug Fixes
+
+* do not attempt to encrypt null or undefined values ([c4c2806](https://github.com/wmfs/tymly-crypto-plugin/commit/c4c2806))
+* no longer try to decrypt target if a UUID is not present ([0a55d06](https://github.com/wmfs/tymly-crypto-plugin/commit/0a55d06))
+
+
+### 📚 Documentation
+
+* JSDocs for add-crypto-entry ([257daf3](https://github.com/wmfs/tymly-crypto-plugin/commit/257daf3))
+* JSDocs for crypto/index ([4b5033f](https://github.com/wmfs/tymly-crypto-plugin/commit/4b5033f))
+* JSDocs for get-crypto-entry ([dada5a5](https://github.com/wmfs/tymly-crypto-plugin/commit/dada5a5))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add circle ci config ([b984927](https://github.com/wmfs/tymly-crypto-plugin/commit/b984927))
+* **travis:** update travis config ([d74edc8](https://github.com/wmfs/tymly-crypto-plugin/commit/d74edc8))
+
 ## [1.3.3](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.3.2...v1.3.3) (2019-01-10)
 
 
