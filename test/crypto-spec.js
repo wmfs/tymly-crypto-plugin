@@ -18,6 +18,11 @@ const FORM_DATA_2 = {
   encryptThisOne: ''
 }
 
+const FORM_DATA_3 = {
+  dontEncryptThis: 'test string',
+  encryptThisOne: null
+}
+
 describe('Test general crypto actions', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
@@ -145,6 +150,43 @@ describe('Test general crypto actions', function () {
     await statebox.sendTaskSuccess(
       execName,
       FORM_DATA_2,
+      {}
+    )
+
+    const execDesc = await statebox.waitUntilStoppedRunning(
+      execName
+    )
+
+    expect(execDesc.currentStateName).to.eql('Upserting')
+    expect(execDesc.status).to.eql('SUCCEEDED')
+  })
+
+  it('should not find any additional value in the crypto model', async () => {
+    const res = await cryptoModel.find({})
+
+    expect(res.length).to.eql(1)
+  })
+
+  it('should attempt encryption of a null value', async () => {
+    const execDesc = await statebox.startExecution(
+      {},
+      ADD_VALUE_STATE_MACHINE,
+      {
+        sendResponse: 'AFTER_RESOURCE_CALLBACK.TYPE:awaitingHumanInput'
+      }
+    )
+
+    // console.log('>>>', execDesc)
+
+    execName = execDesc.executionName
+    expect(execDesc.status).to.eql('RUNNING')
+    expect(execDesc.currentStateName).to.eql('AwaitingHumanInput')
+  })
+
+  it('should complete the test form with null crypto value and wait for ADD_VALUE_STATE_MACHINE to finish', async () => {
+    await statebox.sendTaskSuccess(
+      execName,
+      FORM_DATA_3,
       {}
     )
 
