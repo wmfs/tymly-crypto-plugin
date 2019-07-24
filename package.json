@@ -20,7 +20,7 @@
   "dependencies": {
     "dottie": "2.0.1",
     "jsonpath-plus": "0.18.0",
-    "jsonwebtoken": "8.3.0"
+    "jsonwebtoken": "8.5.1"
   },
   "devDependencies": {
     "@semantic-release/changelog": "3.0.4",
