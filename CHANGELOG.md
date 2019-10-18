@@ -1,3 +1,40 @@
+# [1.5.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.4.0...v1.5.0) (2019-10-18)
+
+
+### ✨ Features
+
+* keysafe rbac ([](https://github.com/wmfs/tymly-crypto-plugin/commit/38ce555))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/changelog requirement ([](https://github.com/wmfs/tymly-crypto-plugin/commit/02455f7))
+* **deps-dev:** update [@semantic-release](https://github.com/semantic-release)/git requirement ([](https://github.com/wmfs/tymly-crypto-plugin/commit/7a14714))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly requirement from 1.75.0 to 1.95.0 ([](https://github.com/wmfs/tymly-crypto-plugin/commit/e969bce))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly-solr-plugin requirement ([](https://github.com/wmfs/tymly-crypto-plugin/commit/86a74a8))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs)/tymly-users-plugin requirement ([](https://github.com/wmfs/tymly-crypto-plugin/commit/05a382c))
+* **deps-dev:** update codecov requirement from 3.1.0 to 3.5.0 ([](https://github.com/wmfs/tymly-crypto-plugin/commit/dbece71))
+* **deps-dev:** update dev dependancies ([](https://github.com/wmfs/tymly-crypto-plugin/commit/a425c4a))
+* **deps-dev:** update mocha requirement from 5.2.0 to 6.2.0 ([](https://github.com/wmfs/tymly-crypto-plugin/commit/0385b95))
+* **deps-dev:** update nyc requirement from 13.1.0 to 14.1.1 ([](https://github.com/wmfs/tymly-crypto-plugin/commit/6603a93))
+* **deps-dev:** update semantic-release requirement ([](https://github.com/wmfs/tymly-crypto-plugin/commit/93ff917))
+
+
+### 📚 Documentation
+
+* add circleci status [skip ci] ([](https://github.com/wmfs/tymly-crypto-plugin/commit/164b319))
+
+
+### 🚨 Tests
+
+* update deps ([](https://github.com/wmfs/tymly-crypto-plugin/commit/2c4e90d))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Update CircleCI config - Travis migration ([](https://github.com/wmfs/tymly-crypto-plugin/commit/0144c27))
+* **travis:** remove Travis config ([](https://github.com/wmfs/tymly-crypto-plugin/commit/d1e85f9))
+
 # [1.4.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.3.3...v1.4.0) (2019-04-04)
 
 
