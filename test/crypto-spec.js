@@ -125,7 +125,7 @@ describe('Test general crypto actions', function () {
       execName
     )
 
-    // console.log('***', JSON.stringify(execDesc, null, 2))
+    console.log('***', JSON.stringify(execDesc, null, 2))
     expect(execDesc.ctx.data.decryptionTarget[0].encryptThisOne).to.eql('test string')
     expect(execDesc.status).to.eql('SUCCEEDED')
   })
