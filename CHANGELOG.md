@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.5.0...v1.5.1) (2019-10-21)
+
+
+### 🐛 Bug Fixes
+
+* id is a string now, not an object anymore ([](https://github.com/wmfs/tymly-crypto-plugin/commit/6a30d73))
+
 # [1.5.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.4.0...v1.5.0) (2019-10-18)
 
 
