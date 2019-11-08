@@ -40,7 +40,7 @@ describe('Test general crypto actions', function () {
       {
         pluginPaths: [
           path.resolve(__dirname, './..'),
-          path.resolve(__dirname, '../node_modules/@wmfs/tymly-users-plugin'),
+          path.resolve(__dirname, '../node_modules/@wmfs/tymly-cardscript-plugin'),
           path.resolve(__dirname, '../node_modules/@wmfs/tymly-solr-plugin'),
           path.resolve(__dirname, '../node_modules/@wmfs/tymly-test-helpers/plugins/allow-everything-rbac-plugin')
         ],
