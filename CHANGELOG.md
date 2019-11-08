@@ -1,3 +1,20 @@
+# [1.6.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.5.2...v1.6.0) (2019-11-08)
+
+
+### 🐛 Bug Fixes
+
+* change users plugin to cardscript plugin ([d024547](https://github.com/wmfs/tymly-crypto-plugin/commit/d0245476c9cc1670f42709cb04a176c56559ad35))
+
+
+### 🛠 Builds
+
+* **deps:** update deps ([e813d1b](https://github.com/wmfs/tymly-crypto-plugin/commit/e813d1b43608548430069be335a2e8078b78728f))
+
+
+### 🚨 Tests
+
+* update plugin to cardscript in test ([a387b78](https://github.com/wmfs/tymly-crypto-plugin/commit/a387b781f58b1223a202ed89a026a8b2e74446b6))
+
 ## [1.5.2](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.5.1...v1.5.2) (2019-10-21)
 
 
