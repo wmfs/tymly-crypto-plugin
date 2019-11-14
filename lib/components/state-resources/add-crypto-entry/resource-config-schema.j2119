@@ -1,0 +1,3 @@
+This document specifies a JSON object called a "AddCryptoEntryConfig".
+A AddCryptoEntryConfig MUST have a string field named "expiryOffset".
+A AddCryptoEntryConfig MUST have a JSONPath-array field named "values".

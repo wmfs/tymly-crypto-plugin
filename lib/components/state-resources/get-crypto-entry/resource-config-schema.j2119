@@ -1,0 +1,4 @@
+This document specifies a JSON object called a "GetCryptoEntryConfig".
+A GetCryptoEntryConfig MAY have a string field named "source".
+A GetCryptoEntryConfig MUST have a JSONPath-array field named "pathToDecryptionTargets".
+A GetCryptoEntryConfig MUST have a JSONPath-array field named "values".
