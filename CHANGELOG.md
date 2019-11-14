@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.6.0...v1.6.1) (2019-11-14)
+
+
+### 🐛 Bug Fixes
+
+* statelint warnings ([e783d25](https://github.com/wmfs/tymly-crypto-plugin/commit/e783d251479c0e4a46fd2d6b97b669d218369b2f))
+
 # [1.6.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.5.2...v1.6.0) (2019-11-08)
 
 
