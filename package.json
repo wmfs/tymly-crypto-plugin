@@ -23,7 +23,7 @@
     "jsonwebtoken": "8.5.1"
   },
   "devDependencies": {
-    "@semantic-release/changelog": "3.0.5",
+    "@semantic-release/changelog": "3.0.6",
     "@semantic-release/git": "7.0.18",
     "chai": "4.2.0",
     "codecov": "3.6.1",
