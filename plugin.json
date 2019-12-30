@@ -1,0 +1,12 @@
+{
+  "name": "crypto",
+  "version": "1.6.1",
+  "label": "Crypto",
+  "author": "Reece Brend",
+  "organisation": "West Midlands Fire Service",
+  "description": "Tymly plugin to provide access to crypto service",
+  "categories": [
+    "crypto",
+    "cryptoLocker"
+  ]
+}
