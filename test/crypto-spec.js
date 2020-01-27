@@ -51,8 +51,8 @@ describe('Test general crypto actions', function () {
       (err, tymlyServices) => {
         expect(err).to.eql(null)
         statebox = tymlyServices.statebox
-        cryptoModel = tymlyServices.storage.models['tymly_cryptoLocker']
-        testFormModel = tymlyServices.storage.models['test_cryptoTest']
+        cryptoModel = tymlyServices.storage.models.tymly_cryptoLocker
+        testFormModel = tymlyServices.storage.models.test_cryptoTest
         done()
       }
     )
