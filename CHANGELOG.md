@@ -1,3 +1,34 @@
+## [1.7.2](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.7.1...v1.7.2) (2020-05-05)
+
+
+### 🐛 Bug Fixes
+
+* **crypto-service:** Removed redundant boot callback parameter ([939cca6](https://github.com/wmfs/tymly-crypto-plugin/commit/939cca6a06c651ab9e9a2a395de3e6dc2806193d))
+
+
+### 🛠 Builds
+
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.135.1 to 1.135.2 ([012b6c0](https://github.com/wmfs/tymly-crypto-plugin/commit/012b6c0b8495c68f11297afc48edd44f723d067a))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.135.2 to 1.136.0 ([ee444ad](https://github.com/wmfs/tymly-crypto-plugin/commit/ee444ad1178cf1cc8323b6ea71d226e5375f2e9d))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.136.0 to 1.137.0 ([b79c2c4](https://github.com/wmfs/tymly-crypto-plugin/commit/b79c2c45420f69c7c9b44d3ffc09512d2d286090))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.137.0 to 1.137.1 ([7fdc929](https://github.com/wmfs/tymly-crypto-plugin/commit/7fdc929906fb0ce052fd3a5064b864af0af1d91c))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.137.1 to 1.137.2 ([775a2e0](https://github.com/wmfs/tymly-crypto-plugin/commit/775a2e035de7ac4398bda2afd79fbc69cfb69697))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([23d59a5](https://github.com/wmfs/tymly-crypto-plugin/commit/23d59a5c6186e9ebe10c3daf11ea7001b12b5f2d))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([4c16ae1](https://github.com/wmfs/tymly-crypto-plugin/commit/4c16ae1b57c8d473462a5ddcdb02d8283af534a3))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([c281a48](https://github.com/wmfs/tymly-crypto-plugin/commit/c281a48a25713c0aae731eb3c96010119e2e82ba))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([a13d559](https://github.com/wmfs/tymly-crypto-plugin/commit/a13d5596ed2abd9308ae8ffd816c031b1b77c3c1))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin from 1.17.0 to 1.17.1 ([61cfa46](https://github.com/wmfs/tymly-crypto-plugin/commit/61cfa46ee4de625e3c4f62a18a9cfbd91b13e703))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin from 1.17.1 to 1.17.2 ([6e4a66c](https://github.com/wmfs/tymly-crypto-plugin/commit/6e4a66c34f6b2baa0a9862afc976e1d7f3ebf905))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.7.0 to 2.7.1 ([b309c2e](https://github.com/wmfs/tymly-crypto-plugin/commit/b309c2eb58e602dc7cda7aab7e8e132da706fd7f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.7.1 to 2.7.2 ([3ab4ba5](https://github.com/wmfs/tymly-crypto-plugin/commit/3ab4ba556336db5217ae6b763e2de781fbae1b7a))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.7.2 to 2.8.0 ([a846cd3](https://github.com/wmfs/tymly-crypto-plugin/commit/a846cd3007bf6d355834764d239271fb1ab1c05e))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-test-helpers from 1.4.0 to 1.4.1 ([cf75385](https://github.com/wmfs/tymly-crypto-plugin/commit/cf753850e7326a982d2f28c7cb43ca9e7d6a2529))
+* **deps-dev:** bump cz-conventional-changelog from 3.1.0 to 3.2.0 ([9f626fe](https://github.com/wmfs/tymly-crypto-plugin/commit/9f626febdc285f8e7025128eb77a9e22de58cf15))
+* **deps-dev:** bump mocha from 7.1.1 to 7.1.2 ([e2de6d4](https://github.com/wmfs/tymly-crypto-plugin/commit/e2de6d40d68886d2b97e15bf5895b4afb862660f))
+* **deps-dev:** bump semantic-release from 17.0.4 to 17.0.5 ([f25802e](https://github.com/wmfs/tymly-crypto-plugin/commit/f25802e7a6a93952463d975f1c28773f0f2cd243))
+* **deps-dev:** bump semantic-release from 17.0.5 to 17.0.6 ([fcce929](https://github.com/wmfs/tymly-crypto-plugin/commit/fcce929b5dac82c263b20a01c22c50ed79e72259))
+* **deps-dev:** bump semantic-release from 17.0.6 to 17.0.7 ([7868955](https://github.com/wmfs/tymly-crypto-plugin/commit/786895579f7e064ac6e3b9713150591daa6dd0f0))
+
 ## [1.7.1](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.7.0...v1.7.1) (2020-04-16)
 
 
