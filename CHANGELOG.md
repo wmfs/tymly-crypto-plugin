@@ -1,3 +1,44 @@
+# [1.8.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.7.2...v1.8.0) (2020-07-16)
+
+
+### 🛠 Builds
+
+* **deps:** bump jsonpath-plus from 3.0.0 to 4.0.0 ([19a851e](https://github.com/wmfs/tymly-crypto-plugin/commit/19a851ead398136aa39697cabfee9adffb64b2b0))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.137.2 to 1.137.3 ([f35800f](https://github.com/wmfs/tymly-crypto-plugin/commit/f35800fba67e3b2c104fb54abd57914e9ac1c860))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.137.3 to 1.138.0 ([75b9682](https://github.com/wmfs/tymly-crypto-plugin/commit/75b9682a983eca5dffa80a403d48bdf7ef7b4dbe))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.138.0 to 1.140.0 ([87f940f](https://github.com/wmfs/tymly-crypto-plugin/commit/87f940f41804c01b3d444cbdc4c9a8f1e681c37c))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.140.0 to 1.141.0 ([5519060](https://github.com/wmfs/tymly-crypto-plugin/commit/5519060514f1927edc32c85527db65c42f548f34))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.141.0 to 1.142.0 ([4e1bddb](https://github.com/wmfs/tymly-crypto-plugin/commit/4e1bddb14d674b2140ff27c455c01c43711c95ca))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.142.0 to 1.143.0 ([7c33ece](https://github.com/wmfs/tymly-crypto-plugin/commit/7c33eceb60cf9bf0854b5b05b09002705f33c241))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.143.0 to 1.144.0 ([610800f](https://github.com/wmfs/tymly-crypto-plugin/commit/610800fa43bf9c25cd405f948f7c862a2bcebb1e))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.144.0 to 1.145.0 ([f090308](https://github.com/wmfs/tymly-crypto-plugin/commit/f090308c3b03a81911e813b5310c8d692a75de25))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.145.0 to 1.146.0 ([ee16def](https://github.com/wmfs/tymly-crypto-plugin/commit/ee16def0a930bab0ea535bffcdf20856ff3a52d6))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.146.0 to 1.147.0 ([aa02d27](https://github.com/wmfs/tymly-crypto-plugin/commit/aa02d27dfc2b1b893e58bcaff5ab3cc4edacda59))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.147.0 to 1.148.0 ([18f5ec0](https://github.com/wmfs/tymly-crypto-plugin/commit/18f5ec03def1b859bf3dac88549d9dd294b11a2f))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.148.0 to 1.149.0 ([395492d](https://github.com/wmfs/tymly-crypto-plugin/commit/395492de92320e014dc96202b5cdd6ad41234ecb))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.149.0 to 1.150.0 ([e9e81b6](https://github.com/wmfs/tymly-crypto-plugin/commit/e9e81b6df6d2a0ccac63b2eb57d54ba231748d2c))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-cardscript-plugin ([3800021](https://github.com/wmfs/tymly-crypto-plugin/commit/3800021ad9c43cfd239bfa15a82e62b6f609b05a))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin from 1.17.2 to 1.17.3 ([c52aa07](https://github.com/wmfs/tymly-crypto-plugin/commit/c52aa0743bee0ff27783d723c5833da9bc4e75d8))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.10.0 to 2.11.0 ([22511f3](https://github.com/wmfs/tymly-crypto-plugin/commit/22511f3ba075fe2ef23c4e7ed93297f7081e597a))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.8.0 to 2.8.1 ([3a5ff31](https://github.com/wmfs/tymly-crypto-plugin/commit/3a5ff314d2cfaee8baee3e2912288c27bf3536b1))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.8.1 to 2.8.3 ([5eeb53c](https://github.com/wmfs/tymly-crypto-plugin/commit/5eeb53ce2e579d1f6f37494573f847b323ba7ef3))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.8.3 to 2.9.0 ([281fe1c](https://github.com/wmfs/tymly-crypto-plugin/commit/281fe1c9440fc7e14d3e04ee90ea55f723b9ba43))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.9.0 to 2.10.0 ([0631ae4](https://github.com/wmfs/tymly-crypto-plugin/commit/0631ae469d91bf95242e4ef38d0194fcf53bfe07))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-test-helpers from 1.4.1 to 1.4.2 ([61cf455](https://github.com/wmfs/tymly-crypto-plugin/commit/61cf4554dde1e4043a8c59a71f2b16df38b2f396))
+* **deps-dev:** bump codecov from 3.6.5 to 3.7.0 ([3ce3985](https://github.com/wmfs/tymly-crypto-plugin/commit/3ce398566f77e96aad1ebde773680417df455d3d))
+* **deps-dev:** bump mocha from 7.1.2 to 7.2.0 ([e260421](https://github.com/wmfs/tymly-crypto-plugin/commit/e26042157c49c010f73992d0b1ba4d2b34835af3))
+* **deps-dev:** bump mocha from 7.2.0 to 8.0.1 ([594516f](https://github.com/wmfs/tymly-crypto-plugin/commit/594516f1ac4691c8afe1d5402a8984075669dba5))
+* **deps-dev:** bump nyc from 15.0.1 to 15.1.0 ([45d0020](https://github.com/wmfs/tymly-crypto-plugin/commit/45d0020fa3b43299c1b3ae006daefa11a2ea0af4))
+* **deps-dev:** bump semantic-release from 17.0.7 to 17.0.8 ([84c6253](https://github.com/wmfs/tymly-crypto-plugin/commit/84c625320318ad0c7093f78e11b9a7026c8b9b4c))
+* **deps-dev:** bump semantic-release from 17.0.8 to 17.1.0 ([c257960](https://github.com/wmfs/tymly-crypto-plugin/commit/c257960d503e9fa07e2507608f6ef85fca08c294))
+* **deps-dev:** bump semantic-release from 17.1.0 to 17.1.1 ([295f72b](https://github.com/wmfs/tymly-crypto-plugin/commit/295f72b9bd7b9eeadd52016b607e58de8e0377e1))
+* **deps-dev:** bump standard from 14.3.3 to 14.3.4 ([a3aa2b9](https://github.com/wmfs/tymly-crypto-plugin/commit/a3aa2b9e22087fd327dc0c3cd215a0608e3f63f5))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** use updated circle node image [skip ci] ([112cb6b](https://github.com/wmfs/tymly-crypto-plugin/commit/112cb6bfa0a4800993eee704b252790937db479e))
+
 ## [1.7.2](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.7.1...v1.7.2) (2020-05-05)
 
 
