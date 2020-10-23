@@ -37,7 +37,7 @@
     "standard": "15.0.0",
     "@wmfs/tymly": "1.166.0",
     "@wmfs/tymly-rbac-plugin": "1.17.3",
-    "@wmfs/tymly-solr-plugin": "2.14.0",
+    "@wmfs/tymly-solr-plugin": "2.15.0",
     "@wmfs/tymly-test-helpers": "1.7.0",
     "@wmfs/tymly-cardscript-plugin": "1.13.5"
   },
