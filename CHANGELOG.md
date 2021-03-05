@@ -1,3 +1,20 @@
+# [1.10.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.9.0...v1.10.0) (2021-03-05)
+
+
+### 🛠 Builds
+
+* **deps:** bump jsonpath-plus from 5.0.3 to 5.0.4 ([c2eb26d](https://github.com/wmfs/tymly-crypto-plugin/commit/c2eb26d8683b3f663970f3e910b71fa186a66cbc))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.188.0 to 1.189.0 ([9882fce](https://github.com/wmfs/tymly-crypto-plugin/commit/9882fce0037a325ef3a9b160568188254a14e822))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.189.0 to 1.190.0 ([b7bca06](https://github.com/wmfs/tymly-crypto-plugin/commit/b7bca06677f9865153072953d45f44d21269b8d8))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.190.0 to 1.191.0 ([d93108c](https://github.com/wmfs/tymly-crypto-plugin/commit/d93108c6f06ab62f594d21b88762abe2ead0c1b5))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly from 1.191.0 to 1.192.0 ([9c6b5a8](https://github.com/wmfs/tymly-crypto-plugin/commit/9c6b5a84a023a77770eb1f0d032791886ec5f306))
+* **deps-dev:** bump [@wmfs](https://github.com/wmfs)/tymly-solr-plugin from 2.20.0 to 2.21.0 ([007e442](https://github.com/wmfs/tymly-crypto-plugin/commit/007e4429102cd5f37bb2fd58dfb22918ea366d5f))
+* **deps-dev:** bump chai from 4.3.0 to 4.3.1 ([e4d6b30](https://github.com/wmfs/tymly-crypto-plugin/commit/e4d6b3058f5b83ea3857c7fd71d74d0c38d1b70a))
+* **deps-dev:** bump chai from 4.3.1 to 4.3.2 ([36a9b81](https://github.com/wmfs/tymly-crypto-plugin/commit/36a9b81e63160f9f5af1c0392d16f65c1f8c703d))
+* **deps-dev:** bump chai from 4.3.2 to 4.3.3 ([02aaf8a](https://github.com/wmfs/tymly-crypto-plugin/commit/02aaf8a906913262da56f9df9126f950be6684d3))
+* **deps-dev:** bump semantic-release from 17.3.9 to 17.4.0 ([901bca2](https://github.com/wmfs/tymly-crypto-plugin/commit/901bca2b6bf66e31712689a9f17b0b9668438673))
+* **deps-dev:** bump semantic-release from 17.4.0 to 17.4.1 ([adf8cc4](https://github.com/wmfs/tymly-crypto-plugin/commit/adf8cc466c8021ec5f4cc76054c2daf7928cfe55))
+
 # [1.9.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.8.0...v1.9.0) (2021-02-24)
 
 
