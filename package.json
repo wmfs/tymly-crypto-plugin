@@ -35,7 +35,7 @@
     "nyc": "15.1.0",
     "semantic-release": "17.4.2",
     "standard": "16.0.3",
-    "@wmfs/tymly": "1.197.0",
+    "@wmfs/tymly": "1.198.0",
     "@wmfs/tymly-rbac-plugin": "1.18.1",
     "@wmfs/tymly-solr-plugin": "2.23.0",
     "@wmfs/tymly-test-helpers": "1.7.0",
