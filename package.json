@@ -39,7 +39,7 @@
     "@wmfs/tymly-rbac-plugin": "1.18.1",
     "@wmfs/tymly-solr-plugin": "2.23.0",
     "@wmfs/tymly-test-helpers": "1.7.0",
-    "@wmfs/tymly-cardscript-plugin": "1.13.5"
+    "@wmfs/tymly-cardscript-plugin": "1.29.0"
   },
   "scripts": {
     "lint": "standard",
