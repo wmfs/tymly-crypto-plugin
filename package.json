@@ -36,7 +36,7 @@
     "semantic-release": "18.0.0",
     "standard": "16.0.4",
     "@wmfs/tymly": "1.218.0",
-    "@wmfs/tymly-rbac-plugin": "1.18.1",
+    "@wmfs/tymly-rbac-plugin": "1.19.0",
     "@wmfs/tymly-solr-plugin": "2.29.1",
     "@wmfs/tymly-test-helpers": "1.10.0",
     "@wmfs/tymly-cardscript-plugin": "1.13.5"
