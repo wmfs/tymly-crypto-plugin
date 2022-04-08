@@ -1,3 +1,23 @@
+## [1.12.1](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.12.0...v1.12.1) (2022-04-08)
+
+
+### 🐛 Bug Fixes
+
+* remove redundant logs ([09252fe](https://github.com/wmfs/tymly-crypto-plugin/commit/09252fe05238b014f60db93551a642a32f984856))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.235.1 ([2cfb51b](https://github.com/wmfs/tymly-crypto-plugin/commit/2cfb51bebb8ec57731cdc19ebfba33f3c74ae673))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly to v1.235.2 ([50188ac](https://github.com/wmfs/tymly-crypto-plugin/commit/50188acfbdc7c84a6d4aa1cb9cd81c77c71d88c4))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-rbac-plugin to v1.22.0 ([dda9e92](https://github.com/wmfs/tymly-crypto-plugin/commit/dda9e9220f4b96cd798e8855cf3de4ec146f2db8))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-solr-plugin to v2.33.2 ([0ca097b](https://github.com/wmfs/tymly-crypto-plugin/commit/0ca097bc675bc1e6c9e4437005579653af04b6ee))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.16.0 ([a4b0d7a](https://github.com/wmfs/tymly-crypto-plugin/commit/a4b0d7a0c406f8eae53a9de69b24f960a7fa53c0))
+* **deps-dev:** update dependency [@wmfs](https://github.com/wmfs)/tymly-test-helpers to v1.17.0 ([be78fec](https://github.com/wmfs/tymly-crypto-plugin/commit/be78fec8d475c273df1a5b08251a526faf0f5df7))
+* **deps-dev:** update dependency chai to v4.3.6 ([e14be4d](https://github.com/wmfs/tymly-crypto-plugin/commit/e14be4d46f3ded960f529156568aba10f762d654))
+* **deps-dev:** update dependency mocha to v9.2.1 ([c433bb9](https://github.com/wmfs/tymly-crypto-plugin/commit/c433bb9af9d071f6a9a7440f2dd42427da453883))
+* **deps-dev:** update dependency mocha to v9.2.2 ([229aef3](https://github.com/wmfs/tymly-crypto-plugin/commit/229aef3ff89e1dc34c03ce2d4606ce0e16068065))
+
 # [1.12.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.11.0...v1.12.0) (2022-01-25)
 
 
