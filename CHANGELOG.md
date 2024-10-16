@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.12.1...v1.13.0) (2024-10-16)
+
+
+### Bug Fixes
+
+* Resolve issues with tests and dependencies ([#505](https://github.com/wmfs/tymly-crypto-plugin/issues/505)) ([155b5a6](https://github.com/wmfs/tymly-crypto-plugin/commit/155b5a68ffe7440bec85cf13207b1d4d37f1e596))
+
 ## [1.12.1](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.12.0...v1.12.1) (2022-04-08)
 
 
