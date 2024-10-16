@@ -7,7 +7,7 @@
       "Resource": "module:awaitingHumanInput",
       "ResourceConfig": {
         "uiType": "form",
-        "uiName": "wmfs_testForm"
+        "uiName": "test_testForm"
       },
       "ResultPath": "$.formData",
       "Next": "AddValue"
