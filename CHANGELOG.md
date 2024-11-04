@@ -1,3 +1,5 @@
+# [1.14.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.13.0...v1.14.0) (2024-11-04)
+
 # [1.13.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.12.1...v1.13.0) (2024-10-16)
 
 
