@@ -1,3 +1,30 @@
+## [1.16.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.15.0...v1.16.0) (2025-02-17)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** [sc-29160] Resolve issue with semantic-release changelog notes ([#530](https://github.com/wmfs/tymly-crypto-plugin/issues/530)) ([fd6feef](https://github.com/wmfs/tymly-crypto-plugin/commit/fd6feef5d7f83afd81c24a3ee5afb21522dae244))
+* **deps-dev:** update dependency @semantic-release/exec to v7 ([#538](https://github.com/wmfs/tymly-crypto-plugin/issues/538)) ([e403a3c](https://github.com/wmfs/tymly-crypto-plugin/commit/e403a3c6bfc15452306fecb77fa00f8a7dc09066))
+* **deps-dev:** update dependency @semantic-release/exec to v7.0.2 ([#539](https://github.com/wmfs/tymly-crypto-plugin/issues/539)) ([61048de](https://github.com/wmfs/tymly-crypto-plugin/commit/61048deb89057fc3e64fefef4e9f55acac4be13a))
+* **deps-dev:** update dependency @semantic-release/exec to v7.0.3 ([#540](https://github.com/wmfs/tymly-crypto-plugin/issues/540)) ([c1e5911](https://github.com/wmfs/tymly-crypto-plugin/commit/c1e591106e78cf38aca09e01b473f61fc4853442))
+* **deps-dev:** update dependency @wmfs/tymly to v1.284.0 ([#523](https://github.com/wmfs/tymly-crypto-plugin/issues/523)) ([2ed8198](https://github.com/wmfs/tymly-crypto-plugin/commit/2ed81989fb341f1d72d02ee53c38996c66456677))
+* **deps-dev:** update dependency @wmfs/tymly to v1.285.0 ([#525](https://github.com/wmfs/tymly-crypto-plugin/issues/525)) ([cad128c](https://github.com/wmfs/tymly-crypto-plugin/commit/cad128cf089e45e58f04048849066a7ee1628a58))
+* **deps-dev:** update dependency @wmfs/tymly to v1.286.0 ([#527](https://github.com/wmfs/tymly-crypto-plugin/issues/527)) ([85869f1](https://github.com/wmfs/tymly-crypto-plugin/commit/85869f19ce8e97e491f5634645bf1a301dd92e8a))
+* **deps-dev:** update dependency @wmfs/tymly to v1.287.0 ([#529](https://github.com/wmfs/tymly-crypto-plugin/issues/529)) ([29742bc](https://github.com/wmfs/tymly-crypto-plugin/commit/29742bc2fab5ebaa5f610637d01456cf526db3f9))
+* **deps-dev:** update dependency @wmfs/tymly to v1.288.0 ([#531](https://github.com/wmfs/tymly-crypto-plugin/issues/531)) ([c4c65a6](https://github.com/wmfs/tymly-crypto-plugin/commit/c4c65a6fe015aad9608179db5da690955577d238))
+* **deps-dev:** update dependency @wmfs/tymly to v1.289.0 ([#533](https://github.com/wmfs/tymly-crypto-plugin/issues/533)) ([7d22196](https://github.com/wmfs/tymly-crypto-plugin/commit/7d22196549a62d2330157eb28d7b53e06efaa977))
+* **deps-dev:** update dependency @wmfs/tymly to v1.291.0 ([#534](https://github.com/wmfs/tymly-crypto-plugin/issues/534)) ([4815c3b](https://github.com/wmfs/tymly-crypto-plugin/commit/4815c3b7e2c7f3b93dabadc61830629b54142e45))
+* **deps-dev:** update dependency @wmfs/tymly to v1.292.0 ([#536](https://github.com/wmfs/tymly-crypto-plugin/issues/536)) ([916837e](https://github.com/wmfs/tymly-crypto-plugin/commit/916837efcf94e52a23c2b4dbcd7a5abdfcdd1421))
+* **deps-dev:** update dependency @wmfs/tymly-cardscript-plugin to v1.49.0 ([#532](https://github.com/wmfs/tymly-crypto-plugin/issues/532)) ([0afa391](https://github.com/wmfs/tymly-crypto-plugin/commit/0afa3918c01a85652a0b8938363b63af0f17f1ea))
+* **deps-dev:** update dependency @wmfs/tymly-cardscript-plugin to v1.50.0 ([#535](https://github.com/wmfs/tymly-crypto-plugin/issues/535)) ([9af17aa](https://github.com/wmfs/tymly-crypto-plugin/commit/9af17aa41689f52c678ab44b87b78c5f4c0dc112))
+* **deps-dev:** update dependency @wmfs/tymly-solr-plugin to v2.47.0 ([#522](https://github.com/wmfs/tymly-crypto-plugin/issues/522)) ([7e85582](https://github.com/wmfs/tymly-crypto-plugin/commit/7e85582d4f9d1e4d211234f8d50f67b2444bdb88))
+* **deps-dev:** update dependency @wmfs/tymly-solr-plugin to v2.48.0 ([#526](https://github.com/wmfs/tymly-crypto-plugin/issues/526)) ([66c11d8](https://github.com/wmfs/tymly-crypto-plugin/commit/66c11d8bb533bcc1df3483d1bd0586640382f041))
+* **deps-dev:** update dependency mocha to v11 ([#524](https://github.com/wmfs/tymly-crypto-plugin/issues/524)) ([7bc494e](https://github.com/wmfs/tymly-crypto-plugin/commit/7bc494e11b4d886c6eb8c5aa4c5b2ecc1fbfe188))
+* **deps-dev:** update dependency mocha to v11.1.0 ([#537](https://github.com/wmfs/tymly-crypto-plugin/issues/537)) ([7f58bcf](https://github.com/wmfs/tymly-crypto-plugin/commit/7f58bcf0397fd8bb99332a890434592218eef910))
+* **deps-dev:** update dependency semantic-release to v24.2.1 ([#528](https://github.com/wmfs/tymly-crypto-plugin/issues/528)) ([b2cc342](https://github.com/wmfs/tymly-crypto-plugin/commit/b2cc342c35fc94086aa46f79ddef513ca94563fd))
+* **deps-dev:** update dependency semantic-release to v24.2.2 ([#541](https://github.com/wmfs/tymly-crypto-plugin/issues/541)) ([4d84088](https://github.com/wmfs/tymly-crypto-plugin/commit/4d840883b40e0ced0ac56e3330c721f81c31966b))
+* **deps-dev:** update dependency semantic-release to v24.2.3 ([#543](https://github.com/wmfs/tymly-crypto-plugin/issues/543)) ([ba88553](https://github.com/wmfs/tymly-crypto-plugin/commit/ba8855340126295638f76ac7d5d99ff3d39cd2e2))
+* **deps:** update dependency jsonpath-plus to v10.3.0 ([#542](https://github.com/wmfs/tymly-crypto-plugin/issues/542)) ([c4c8f9a](https://github.com/wmfs/tymly-crypto-plugin/commit/c4c8f9abc9c31c4aa9b5448d495086d7483ec5a9))
+
 # [1.15.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.14.0...v1.15.0) (2024-11-18)
 
 # [1.14.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.13.0...v1.14.0) (2024-11-04)
