@@ -1,3 +1,5 @@
+## [1.16.1](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.16.0...v1.16.1) (2026-08-13)
+
 ## [1.16.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.15.0...v1.16.0) (2025-02-17)
 
 ### Build system dependencies :hammer:
