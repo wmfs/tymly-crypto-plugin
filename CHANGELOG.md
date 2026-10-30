@@ -1,3 +1,27 @@
+## [1.17.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.16.1...v1.17.0) (2026-10-30)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** fix conventionalcommit versions [sc-34125] ([38c2eba](https://github.com/wmfs/tymly-crypto-plugin/commit/38c2eba9a56ee74484f49859b9e017af3bdb4085))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs) packages ([#639](https://github.com/wmfs/tymly-crypto-plugin/issues/639)) ([75b5803](https://github.com/wmfs/tymly-crypto-plugin/commit/75b58033f3c39253ea173780cd33066612b04878))
+* **deps-dev:** update dependency @wmfs/tymly to v1.317.1 ([#625](https://github.com/wmfs/tymly-crypto-plugin/issues/625)) ([7c55c9b](https://github.com/wmfs/tymly-crypto-plugin/commit/7c55c9bd042e1cad0acd702f4a177f76b4996acc))
+* **deps-dev:** update dependency @wmfs/tymly-cardscript-plugin to v1.53.1 ([#626](https://github.com/wmfs/tymly-crypto-plugin/issues/626)) ([ce98a9e](https://github.com/wmfs/tymly-crypto-plugin/commit/ce98a9ec863fb0c7b059265c0f76b6796238cc57))
+* **deps-dev:** update dependency @wmfs/tymly-rbac-plugin to v1.33.1 ([#627](https://github.com/wmfs/tymly-crypto-plugin/issues/627)) ([3bcdc58](https://github.com/wmfs/tymly-crypto-plugin/commit/3bcdc58f3dda9adced5d299ef4e4c8f1ffd47d95))
+* **deps-dev:** update dependency @wmfs/tymly-rbac-plugin to v1.34.0 ([#636](https://github.com/wmfs/tymly-crypto-plugin/issues/636)) ([99e7f41](https://github.com/wmfs/tymly-crypto-plugin/commit/99e7f41ece2c573d5aed6e504612d92cdda6b8ef))
+* **deps-dev:** update dependency @wmfs/tymly-test-helpers to v1.24.1 ([#628](https://github.com/wmfs/tymly-crypto-plugin/issues/628)) ([c63f3ad](https://github.com/wmfs/tymly-crypto-plugin/commit/c63f3ad21e6018de987b445ae2913e4b37f30a38))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.0 ([#629](https://github.com/wmfs/tymly-crypto-plugin/issues/629)) ([4f44bbe](https://github.com/wmfs/tymly-crypto-plugin/commit/4f44bbea31eec977b2aadf36823c3a31376968ff))
+* **deps-dev:** update dependency conventional-changelog-conventionalcommits to v10.4.1 ([#635](https://github.com/wmfs/tymly-crypto-plugin/issues/635)) ([a07aeb6](https://github.com/wmfs/tymly-crypto-plugin/commit/a07aeb6be8dcc261c512cea2adec00a775f92e2c))
+* **deps-dev:** update dependency mocha to v12 ([#630](https://github.com/wmfs/tymly-crypto-plugin/issues/630)) ([fe8c67c](https://github.com/wmfs/tymly-crypto-plugin/commit/fe8c67cd2cffc72f584fd120b32874dfb0d7f937))
+* **deps-dev:** update dependency mocha to v12.0.1 ([#631](https://github.com/wmfs/tymly-crypto-plugin/issues/631)) ([503080b](https://github.com/wmfs/tymly-crypto-plugin/commit/503080b01c6fa69e62f9f4a39ea434c823c1761c))
+* **deps-dev:** update dependency mocha to v12.0.2 ([#632](https://github.com/wmfs/tymly-crypto-plugin/issues/632)) ([0315951](https://github.com/wmfs/tymly-crypto-plugin/commit/03159514ce618292777431ead1bfafd2e1dddd72))
+* **deps-dev:** update dependency mocha to v12.0.3 ([#634](https://github.com/wmfs/tymly-crypto-plugin/issues/634)) ([81354d7](https://github.com/wmfs/tymly-crypto-plugin/commit/81354d784184d586d4f8c9d7f7e06ad993ac9979))
+* **deps:** update dependency dottie to v2.0.7 [security] ([#605](https://github.com/wmfs/tymly-crypto-plugin/issues/605)) ([24ee0a1](https://github.com/wmfs/tymly-crypto-plugin/commit/24ee0a186dff655c313ca62afd6508e3bc815077))
+
+### CICD Configuration Changes :construction_worker:
+
+* use github-app-token orb for release token [sc-34101] ([#637](https://github.com/wmfs/tymly-crypto-plugin/issues/637)) ([9dcee39](https://github.com/wmfs/tymly-crypto-plugin/commit/9dcee39aa7ea24f00bacd274edb265d99367520e))
+* use shared renovate preset [sc-34117] ([#638](https://github.com/wmfs/tymly-crypto-plugin/issues/638)) ([ce54f82](https://github.com/wmfs/tymly-crypto-plugin/commit/ce54f8236af0be2dd0101582c793033e9fd325cc))
+
 ## [1.16.1](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.16.0...v1.16.1) (2026-08-13)
 
 ## [1.16.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.15.0...v1.16.0) (2025-02-17)
