@@ -1,3 +1,10 @@
+## [1.18.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.17.0...v1.18.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update dependency @wmfs/tymly-cardscript-plugin to v1.54.0 ([#640](https://github.com/wmfs/tymly-crypto-plugin/issues/640)) ([11c245e](https://github.com/wmfs/tymly-crypto-plugin/commit/11c245ee72b4b640d856e81ee5a7b09bf5a0ac15))
+* **deps:** update dependency jsonpath-plus to v11 ([#633](https://github.com/wmfs/tymly-crypto-plugin/issues/633)) ([b39f770](https://github.com/wmfs/tymly-crypto-plugin/commit/b39f770672f5a4110b183580b4a999da3c728db4))
+
 ## [1.17.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.16.1...v1.17.0) (2026-10-30)
 
 ### Build system dependencies :hammer:
