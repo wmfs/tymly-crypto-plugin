@@ -1,3 +1,9 @@
+## [1.19.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.18.0...v1.19.0) (2026-11-02)
+
+### Build system dependencies :hammer:
+
+* **deps:** update dependency jsonwebtoken to v9.0.3 ([#599](https://github.com/wmfs/tymly-crypto-plugin/issues/599)) ([18d0061](https://github.com/wmfs/tymly-crypto-plugin/commit/18d0061b677e6dba932c6a76c73c7232abede9d8))
+
 ## [1.18.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.17.0...v1.18.0) (2026-11-02)
 
 ### Build system dependencies :hammer:
