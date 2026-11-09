@@ -19,7 +19,7 @@
   "main": "lib/index.js",
   "dependencies": {
     "dottie": "2.0.7",
-    "jsonpath-plus": "11.2.2",
+    "jsonpath-plus": "11.3.0",
     "jsonwebtoken": "9.0.3"
   },
   "devDependencies": {
