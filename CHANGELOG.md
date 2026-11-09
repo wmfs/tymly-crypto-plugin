@@ -1,3 +1,13 @@
+## [1.20.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.19.0...v1.20.0) (2026-11-09)
+
+### Build system dependencies :hammer:
+
+* **deps-dev:** update [@wmfs](https://github.com/wmfs) packages ([#641](https://github.com/wmfs/tymly-crypto-plugin/issues/641)) ([bf8a605](https://github.com/wmfs/tymly-crypto-plugin/commit/bf8a605609c47dbde4afa165ddf664bc97e34908))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs) packages ([#642](https://github.com/wmfs/tymly-crypto-plugin/issues/642)) ([b5dbd3b](https://github.com/wmfs/tymly-crypto-plugin/commit/b5dbd3b1ff0ed46effdf7589574020973a7cc0b9))
+* **deps-dev:** update [@wmfs](https://github.com/wmfs) packages ([#644](https://github.com/wmfs/tymly-crypto-plugin/issues/644)) ([81ac6cf](https://github.com/wmfs/tymly-crypto-plugin/commit/81ac6cf0dff90e1c997e4777087edff31bf177dc))
+* **deps-dev:** update dependency @wmfs/tymly to v1.327.0 ([#643](https://github.com/wmfs/tymly-crypto-plugin/issues/643)) ([254bd56](https://github.com/wmfs/tymly-crypto-plugin/commit/254bd56564cc84feec4b96b63c55450cbf340986))
+* **deps:** update dependency jsonpath-plus to v11.3.0 ([#645](https://github.com/wmfs/tymly-crypto-plugin/issues/645)) ([fc611e2](https://github.com/wmfs/tymly-crypto-plugin/commit/fc611e2225a0b5076e17a02ba720f02f9b423050))
+
 ## [1.19.0](https://github.com/wmfs/tymly-crypto-plugin/compare/v1.18.0...v1.19.0) (2026-11-02)
 
 ### Build system dependencies :hammer:
